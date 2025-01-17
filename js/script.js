@@ -179,3 +179,5 @@ function decimalToTexto(decimal) {
     });
     return resultado;
 }
+
+
