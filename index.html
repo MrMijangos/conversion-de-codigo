@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Numérico</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-color: #333333;">
+    <div class="header">
+        <header style="font-family:monospace; color: #d6d6d6;">Binario/Decimal/ASCII</header>
+    </div>
+
+    <section class="principal">
+        <div class="traductor">
+            <div class="columna">
+                <select id="idioma-origen">
+                    <option value="decimal">Decimal</option>
+                    <option value="binario">Binario</option>
+                    <option value="ascii">ASCII</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadecimal">hexadecimal</option>
+                </select>
+                <textarea id="texto-origen" placeholder="Escribe aquí..."></textarea>
+            </div>
+
+            <div class="columna">
+                <select id="idioma-destino">
+                    <option value="decimal">Decimal</option>
+                    <option value="binario">Binario</option>
+                    <option value="ascii">ASCII</option>
+                     <option value="octal">Octal</option>
+                    <option value="hexadecimal">hexadecimal</option>
+                </select>
+                <textarea id="texto-destino" placeholder="Resultado..." readonly></textarea>
+            </div>
+            <div>
+            <button class="button" id="boton-convertir" type="button">Convertir</button>
+            </div>
+        </div>
+
+        
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

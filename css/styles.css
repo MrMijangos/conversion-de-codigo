@@ -1,0 +1,106 @@
+.header {
+    padding-block: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+    font-weight: 500;
+    color: rgb(18, 192, 18);
+    text-align: center;
+    border-color: beige;
+    background-color: #464646;
+
+}
+
+/* Contenedor principal */
+.traductor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Espacio entre las columnas */
+    margin-top: 50px;
+  }
+  
+  /* Cada columna */
+  .columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .principal {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo de los selectores */
+  select {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+  }
+  
+  select:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Estilo de los cuadros de texto */
+  textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: none; /* Elimina el redimensionado */
+  }
+  
+  #texto-destino {
+    background-color: #f5f5f5; /* Color más claro para diferenciarlo */
+    color: hsl(0, 0%, 60%); /* Texto gris */
+  }
+
+  
+
+    
+    
+    
+    .button {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      cursor: pointer;
+      border: 3px solid;
+      padding: 0.25em 0.5em;
+      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      align-self: center;
+      justify-content: center;
+    }
+    
+    .button:active {
+      box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
+    }
+    
+    @media (min-width: 768px) {
+      .button-54 {
+        padding: 0.25em 0.75em;
+      }
+    }
+
+    
